@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Flashcard Generator</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📚 AI Flashcard Generator</h1>
+    
+    <div class="upload-section">
+      <label for="pdf-upload" class="upload-label">Upload your PDF notes:</label>
+      <input type="file" id="pdf-upload" accept="application/pdf">
+      <button id="generate-btn">Generate Flashcards</button>
+    </div>
+
+    <div class="flashcards-section" id="flashcards-container">
+      <p class="placeholder-text">Your flashcards will appear here after generation.</p>
+    </div>
+  </div>
+
+  <script src="./script/script.js"></script>
+</body>
+</html>

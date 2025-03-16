@@ -1,0 +1,98 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .upload-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .upload-label {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  input[type="file"] {
+    padding: 10px;
+    border: 2px dashed #888;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+    cursor: pointer;
+  }
+  
+  #generate-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #generate-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .flashcards-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .flashcard {
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    text-align: left;
+  }
+  
+  .flashcard:hover {
+    transform: scale(1.02);
+  }
+  
+  .flashcard-question {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .flashcard-answer {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .placeholder-text {
+    font-style: italic;
+    color: #999;
+  }
+  
