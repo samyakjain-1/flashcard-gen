@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       flashcardsContainer.innerHTML = "<p class='placeholder-text'>Generating flashcards, please wait...</p>";
   
       try {
-        const response = await fetch("https://your-render-app-url.onrender.com/upload-pdf", {
+        const response = await fetch("https://flashcard-3ppu.onrender.com", {
             method: "POST",
             body: formData
           });    
